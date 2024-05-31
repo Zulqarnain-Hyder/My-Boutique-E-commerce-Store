@@ -141,4 +141,4 @@ price
 of the compare product.
 
 
-![alt text](image.png)
+![landing Page](image.png)
