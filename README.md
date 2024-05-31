@@ -4,6 +4,7 @@ My Boutique is more than just a clothing store; it's a haven for women who embra
 
 # Detail About Pages
 ## Home Page:
+
 Home page begin with navbar which consist 5 main options known as home,
 Collections
 (gallery and designers), Contact Us, About Us & Comparison.
