@@ -139,3 +139,6 @@ button of compare when you click on it then the next page will be open
 there is detail about compare product such as their title, size, include, fabric and
 price
 of the compare product.
+
+
+![alt text](image.png)
