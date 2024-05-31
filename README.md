@@ -141,6 +141,15 @@ price
 of the compare product.
 
 
+ ## Software and Libraries Used
+•	Visual Studio Code
+•	BootStrap
+•	JQurey
+•	uikit
+•	popper.js
+•	Figma
+
+
 ![Landing image](landingpage.png)
 ![Favourite collection](Favouritecollection.png)
 ![Casual](casual.png)
