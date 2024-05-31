@@ -141,7 +141,6 @@ price
 of the compare product.
 
 
-![landing Page](landingpage.png)
 ![Image](image.png)
 ![Favourite collection](Favouritecollection.png)
 ![Casual](casual.png)
