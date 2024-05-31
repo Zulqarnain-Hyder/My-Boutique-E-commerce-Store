@@ -1,0 +1,1606 @@
+* {
+  /* margin: 0;
+    padding: 0; */
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica', sans-serif;
+
+}
+
+dialog {
+  border: none;
+  outline: none;
+  height: 75dvh;
+  width: 75dvw;
+}
+
+h6,
+h5 {
+  height: 5px !important;
+  max-height: 5px !important;
+  padding: 5px 0 15px 0 !important;
+  margin: 5px 0 10px 0 !important;
+
+}
+
+
+body {
+  font-family: 'Roboto', 'Open Sans', 'Helvetica', sans-serif;
+}
+
+.mainCartVal {
+  color: white;
+  background-color: red;
+  height: 40px;
+  width: 40px;
+  font-size: 0.75rem;
+  padding: 8px;
+  border-radius: 100px;
+  margin-bottom: 15px !important;
+}
+
+.navColor {
+  color: red !important;
+}
+
+.navColor:hover {
+  color: #000000 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.centerItem {
+  margin-left: 28%;
+}
+
+ul {
+  gap: 30px !important;
+}
+
+ul>li {
+
+  font-size: 1.25rem;
+}
+
+/* .cardSpace{
+    display: flex;
+    gap: 25px !important;
+} */
+
+
+
+.divSpacing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.card {
+  margin-bottom: 23px;
+  height: 450px;
+  /* width: 400px; */
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
+
+
+}
+
+
+.Card1 {
+
+  background-image: url(images/modalimages/modal1/mainImage.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  /* Adjust the values as needed for the shadow effect */
+  border: 2px solid #5454543c;
+}
+
+.Card1:hover {
+  transform: scale(1.1);
+  background-image: url(images/modalimages/modal1/HoverImg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card2 {
+
+  background-image: url(images/modalimages/modal2/Mainimg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card2:hover {
+  transform: scale(1.1);
+  background-image: url(images/modalimages/modal2/pic1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card3 {
+
+  background-image: url(images/modalimages/modal3/Mainblack.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card3:hover {
+  transform: scale(1.1);
+  background-image: url(images/modalimages/modal3/hoverpic.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card4 {
+
+  background-image: url(images/modalimages/modal4/mainimge.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card4:hover {
+  transform: scale(1.1);
+  background-image: url(images/modalimages/modal4/hoverpic.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card5 {
+
+  background-image: url(images/modalimages/modal5/mainimge.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card5:hover {
+  transform: scale(1.1);
+  background-image: url(images/modalimages/modal5/hoverdes.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card6 {
+
+  background-image: url(images/modalimages/modal6/mainblk.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card6:hover {
+  transform: scale(1.1);
+  background-image: url(images/modalimages/modal6/hoverblk.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card7 {
+
+  background-image: url(images/modalimages/modal7/malhaarmain.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card7:hover {
+  transform: scale(1.1);
+  background-image: url(images/modalimages/modal7/hovermalhaar.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card8 {
+
+  background-image: url(images/modalimages/modal8/alizeemain.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card8:hover {
+  transform: scale(1.1);
+  background-image: url(images/modalimages/modal8/hoveralizee.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card9 {
+
+  background-image: url(images/modalimages/modal9/mainRw.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card9:hover {
+  transform: scale(1.1);
+  background-image: url(images/modalimages/modal9/Rwpichover.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card10 {
+
+  background-image: url(images/modalimages/modal10/Rwhitemain.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card10:hover {
+  transform: scale(1.1);
+  background-image: url(images/modalimages/modal10/Rwhitepichover.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card11 {
+
+  background-image: url(images/modalimages/modal11/RwredMain.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card11:hover {
+  transform: scale(1.1);
+  background-image: url(images/modalimages/modal11/Rwredpichover.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card12 {
+
+  background-image: url(images/modalimages/modal12/RwpurpleMain.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.Card12:hover {
+  transform: scale(1.1);
+  background-image: url(images/modalimages/modal12/Rwpurplepichover.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+
+
+/* .cardImage1 {
+    height: 250px;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+} */
+
+.card {
+  transition: transform 0.45s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.075);
+}
+
+.footerClass {
+  background-color: #343a40;
+  color: aliceblue;
+  padding: 3% 0 2% 0;
+  margin-top: 5%;
+}
+
+ul>li:first-child {
+  font-weight: bold;
+  /* text-decoration: underline; */
+  cursor: default;
+}
+
+ul>li {
+  text-align-last: center;
+  line-height: 50px;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.endFooterNotes {
+  height: 25px;
+  margin: 8px 0;
+}
+
+.modalImages {
+  margin: 0.5%;
+}
+
+.btnCancel {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.deliveryDays {
+  color: rgb(92, 92, 255);
+  background-color: rgb(192, 255, 255);
+  padding: 5.5px;
+  font-size: 11px;
+}
+
+.mNewPrice {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.mRemovePrice {
+  color: dimgrey;
+}
+
+.mDiscountPercent {
+  color: red;
+  font-weight: bold;
+}
+
+.mdvSizes {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+}
+
+.mSizes {
+  padding: 1.5%;
+  color: grey;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 2%;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mSizes:hover {
+  color: white;
+  background-color: black;
+}
+
+.mSizes:active {
+  color: white;
+  background-color: black;
+}
+
+.mDelivery {
+  width: 100%;
+  height: auto;
+  background-color: #eaeaea;
+  padding: 1.5%;
+}
+
+
+
+#mainNavigation a {
+  font-family: 'Cabin', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)
+}
+
+
+.dropdown-menu {
+  background: #03727d
+}
+
+a.dropdown-toggle {
+  color: #dfdfdf !important
+}
+
+a.dropdown-item:hover {
+  color: #03727d !important
+}
+
+.nav-item a {
+  color: #dfdfdf;
+}
+
+.nav-item a:hover {
+  color: #000000
+}
+
+.nav-item {
+  min-width: 12vw;
+}
+
+#mainNavigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 123;
+  padding-bottom: 40px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+  /* IE6-9 */
+}
+
+#navbarNavDropdown.collapsing .navbar-nav,
+#navbarNavDropdown.show .navbar-nav {
+  background: #037582;
+  padding: 12px;
+  background-color: rebeccapurple !important;
+}
+
+.footerItem {
+  color: rgb(255, 255, 255) !important;
+}
+
+.footerItem:hover {
+  transition: 0.3 ease-in-out;
+  transform: scale(1.75) !important;
+  color: rgba(255, 0, 0, 0.491) !important;
+  text-decoration: none
+}
+
+/* contact us style hamza start */
+
+
+.title {
+  color: #ffacac;
+  font-family: arial;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 4px;
+}
+
+.redlinkhover {
+  color: red;
+}
+
+
+/* ////////////////// PAYMENT FORM ////////////////////////////// */
+
+
+
+/* //////// LOG IN ///////////////////////////// */
+
+
+/* ////////////// text area box ///////////////// */
+.textareabox {
+  resize: none;
+}
+
+.textareabox:focus {
+  border: 1px solid red;
+}
+
+
+
+/* ///////////////// FILTER RATE ///////////////////////// */
+.fltrrate {
+  display: none;
+}
+
+.rate:hover .fltrrate {
+  display: unset;
+  transition: 5.3s ease-in-out;
+
+}
+
+.fltrrate {
+  color: black;
+  font-size: 1.45rem;
+  margin: 0;
+}
+
+/*//////////////////// login start//////////////////*/
+input[type=text],
+input[type=password],
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+#Contact-message {
+  padding: 10px;
+  display: inline-block;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+.container>h1 {
+  text-align: center;
+}
+
+.container>p {
+  text-align: center;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+
+  .cancelbtn,
+  .signupbtn {
+    width: 100%;
+  }
+}
+
+/*//////////////////// login end////////////////////*/
+
+/* contact us style Hamza End */
+
+/* About us style Hassan start */
+
+.Space {
+  height: 25dvh;
+}
+
+.about-1 {
+  margin: 30px;
+  padding: 5px;
+}
+
+.about-1 h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.about-1 p {
+  text-align: center;
+  padding: 3px;
+  color: #fff;
+}
+
+.about-item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  padding: 8% 6%;
+  height: 450px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: white;
+  padding: 80px, 30px;
+  box-shadow: 0 0 9px rgba(0, 0, 0, .6);
+}
+
+.TxtAlign {
+  text-align: justify;
+}
+
+.about-item i {
+  font-size: 43px;
+  margin: 0;
+}
+
+.about-item h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.about-item hr {
+  width: 46px;
+  height: 3px;
+  background-color: #ff0000;
+  margin: 0 auto;
+  border: none;
+}
+
+.about-item p {
+  margin-top: 20px;
+}
+
+.about-item:hover {
+  background-color: #ff000098;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+  color: #fff;
+}
+
+.about-item:hover hr {
+  background-color: #fff;
+}
+
+.about-item:hover i {
+  transform: translateY(-20px);
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr {
+  transition: all 400ms ease-in-out;
+}
+
+/* About us style Hassan end */
+/*/////////////////////////// hsy work start/////////////////////////////////////*/
+.hsycard1 {
+  background-image: url(gallery/HSY/1/pic\ 1\ \(Bridal\ Traditional\ Embellished\ Ensemble\ with\ a\ Handcrafted\ Shawl\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hsycard1:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/1/IMG_6348.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.hsycard2 {
+  background-image: url(gallery/HSY/2/pic\ 2\ \(Bridal\ Front\ Open\ Gown\ with\ Antique\ Gold\ Work\ and\ Organza\ Dupatta\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hsycard2:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/2/2H0A8090.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.hsycard3 {
+  background-image: url(gallery/HSY/3/pic\ 3\ \(Bridal\ Intricately\ Embroidered\ Side-Slit\ Gown\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hsycard3:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/3/011A1529.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.hsycard4 {
+  background-image: url(gallery/HSY/4/pic\ 4\ \(Bridal\ Hand-Embroidered\ Organza\ Shirt\ with\ Raw\ Silk\ Trailing\ Sharara\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hsycard4:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/4/DSC02163-copy-1.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.hsycard5 {
+  background-image: url(gallery/HSY/5/pic\ 5\ \(HSY\ Signature\ Bridal\ Ensemble\ with\ Handcrafted\ Gold\ Embroidery\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hsycard5:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/5/3-3.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.hsycard6 {
+  background-image: url(gallery/HSY/6/pic\ 6\ \(Bridal\ Traditionally\ Embroidered\ Shirt\ with\ a\ Trailing\ Gharara\ and\ Dupatta\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hsycard6:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/6/17.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.hsycard7 {
+  background-image: url(gallery/HSY/7/pic\ 7\ \(Andaaz\ –\ Bridal\ Shirt\ in\ French\ Beige\ Paired\ with\ a\ Farshi\ Gharara\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hsycard7:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/7/Andaaz_9.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.hsycard8 {
+  background-image: url(gallery/HSY/8/pic\ 8\ \(Bridal\ Fully\ Embellished\ Hot\ Pink\ Lehenga\ Choli\ with\ a\ Bordered\ Dupatta\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hsycard8:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/8/001-copy.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.hsycard9 {
+  background-image: url(gallery/HSY/9/pic\ 9\ \(Bridal\ Deep\ Back\ Traditional\ Lehenga\ Choli\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hsycard9:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/9/1-33.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.hsycard10 {
+  background-image: url(gallery/HSY/10/pic\ 10\ \(Mumtaz\ –\ Meticulously\ Crafted\ Tangerine\ Red\ Bridal\ Lehenga\ Choli\ Ensemble\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hsycard10:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/10/3-441x675.png.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.hsycard11 {
+  background-image: url(gallery/HSY/11/Tailored-Two-Piece-Suit-in-Scarlet-Red-4.png.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hsycard11:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/11/pic\ 11\ \(Tailored\ Two\ Piece\ Suit\ in\ Scarlet\ Red\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.hsycard12 {
+  background-image: url(gallery/HSY/12/pic\ 12\ \(Azure\ –\ Statement\ Jacket\ Paired\ with\ a\ Gown\ with\ an\ Embellished\ Neckline\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hsycard12:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/12/L1050728-1-scaled-1.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+/*/////////////////////////// hsy work end/////////////////////////////////////*/
+/*/////////////////////////// maira Start/////////////////////////////////////,//*/
+.mairacard1 {
+  background-image: url(gallery/MairaB/1/pic\ 1\ \(Ex-148\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.mairacard1:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/1/2r2a7182_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.mairacard2 {
+  background-image: url(gallery/MairaB/2/pic\ 2\(Ex-146\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.mairacard2:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/2/2r2a7065_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.mairacard3 {
+  background-image: url(gallery/MairaB/3/pic\ 3\ \(Ex-147\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.mairacard3:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/3/2r2a7270_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.mairacard4 {
+  background-image: url(gallery/MairaB/4/pic\ 4\ \(Ex-140\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.mairacard4:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/4/ex-140d_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.mairacard5 {
+  background-image: url(gallery/MairaB/5/pic\ 5\ \(Ex-132\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.mairacard5:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/5/ex-132_back_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.mairacard6 {
+  background-image: url(gallery/MairaB/6/pic\ 5\ \(Ex-115\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.mairacard6:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/6/ex-115c_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.mairacard7 {
+  background-image: url(gallery/MairaB/7/pic\ 7\ \(Ex-107\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.mairacard7:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/7/ex-107c_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.mairacard8 {
+  background-image: url(gallery/MairaB/8/pic\ 8\ \(Ex-129\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.mairacard8:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/8/ex-129b_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.mairacard9 {
+  background-image: url(gallery/MairaB/9/pic\ 9\ \(Ex-129\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.mairacard9:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/9/fx-832b_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.mairacard10 {
+  background-image: url(gallery/MairaB/10/pic\ 10\ \(Ex-139\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.mairacard10:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/10/ex-139c_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.mairacard11 {
+  background-image: url(gallery/MairaB/11/pic\ 11\ \(Suit\ Mustard\ DW-EA23-29\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.mairacard11:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/11/DW-EA23-29-Mustardg_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.mairacard12 {
+  background-image: url(gallery/MairaB/12/pic\ 12\ \(Suit\ Black\ DW-W23-33\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.mairacard12:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/12/DW-W23-33-BlackD_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+/*///////////////////////////Hamza maira work end/////////////////////////////////////*/
+/*///////////////////////////Hamza natasha kamal Start/////////////////////////////////////,//*/
+.kamalcard1 {
+  background-image: url(gallery/MairaB/1/pic\ 1\ \(Ex-148\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.kamalcard1:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/1/2r2a7182_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.kamalcard2 {
+  background-image: url(gallery/MairaB/2/pic\ 2\(Ex-146\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.kamalcard2:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/2/2r2a7065_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.kamalcard3 {
+  background-image: url(gallery/MairaB/3/pic\ 3\ \(Ex-147\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.kamalcard3:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/3/2r2a7270_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.kamalcard4 {
+  background-image: url(gallery/MairaB/4/pic\ 4\ \(Ex-140\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.kamalcard4:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/4/ex-140d_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.kamalcard5 {
+  background-image: url(gallery/MairaB/5/pic\ 5\ \(Ex-132\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.kamalcard5:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/5/ex-132_back_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.kamalcard6 {
+  background-image: url(gallery/MairaB/6/pic\ 5\ \(Ex-115\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.kamalcard6:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/6/ex-115c_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.kamalcard7 {
+  background-image: url(gallery/MairaB/7/pic\ 7\ \(Ex-107\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.kamalcard7:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/7/ex-107c_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.kamalcard8 {
+  background-image: url(gallery/MairaB/8/pic\ 8\ \(Ex-129\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.kamalcard8:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/8/ex-129b_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.kamalcard9 {
+  background-image: url(gallery/MairaB/9/pic\ 9\ \(Ex-129\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.kamalcard9:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/9/fx-832b_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.kamalcard10 {
+  background-image: url(gallery/MairaB/10/pic\ 10\ \(Ex-139\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.kamalcard10:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/10/ex-139c_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.kamalcard11 {
+  background-image: url(gallery/MairaB/11/pic\ 11\ \(Suit\ Mustard\ DW-EA23-29\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.kamalcard11:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/11/DW-EA23-29-Mustardg_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.kamalcard12 {
+  background-image: url(gallery/MairaB/12/pic\ 12\ \(Suit\ Black\ DW-W23-33\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.kamalcard12:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/MairaB/12/DW-W23-33-BlackD_540x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+/*///////////////////////////Hamza natasha kamal work end/////////////////////////////////////*/
+
+/*/////////////////////////// Nishat linen work start/////////////////////////////////////*/
+.lenancard1 {
+  background-image: url(gallery/HSY/1/pic\ 1\ \(Bridal\ Traditional\ Embellished\ Ensemble\ with\ a\ Handcrafted\ Shawl\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.lenancard1:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/1/IMG_6348.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.lenancard2 {
+  background-image: url(gallery/HSY/2/pic\ 2\ \(Bridal\ Front\ Open\ Gown\ with\ Antique\ Gold\ Work\ and\ Organza\ Dupatta\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.lenancard2:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/2/2H0A8090.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.lenancard3 {
+  background-image: url(gallery/HSY/3/pic\ 3\ \(Bridal\ Intricately\ Embroidered\ Side-Slit\ Gown\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.lenancard3:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/3/011A1529.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.lenancard4 {
+  background-image: url(gallery/HSY/4/pic\ 4\ \(Bridal\ Hand-Embroidered\ Organza\ Shirt\ with\ Raw\ Silk\ Trailing\ Sharara\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.lenancard4:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/4/DSC02163-copy-1.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.lenancard5 {
+  background-image: url(gallery/HSY/5/pic\ 5\ \(HSY\ Signature\ Bridal\ Ensemble\ with\ Handcrafted\ Gold\ Embroidery\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.lenancard5:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/5/3-3.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.lenancard6 {
+  background-image: url(gallery/HSY/6/pic\ 6\ \(Bridal\ Traditionally\ Embroidered\ Shirt\ with\ a\ Trailing\ Gharara\ and\ Dupatta\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.lenancard6:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/6/17.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.lenancard7 {
+  background-image: url(gallery/HSY/7/pic\ 7\ \(Andaaz\ –\ Bridal\ Shirt\ in\ French\ Beige\ Paired\ with\ a\ Farshi\ Gharara\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.lenancard7:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/7/Andaaz_9.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.lenancard8 {
+  background-image: url(gallery/HSY/8/pic\ 8\ \(Bridal\ Fully\ Embellished\ Hot\ Pink\ Lehenga\ Choli\ with\ a\ Bordered\ Dupatta\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.lenancard8:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/8/001-copy.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.lenancard9 {
+  background-image: url(gallery/HSY/9/pic\ 9\ \(Bridal\ Deep\ Back\ Traditional\ Lehenga\ Choli\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.lenancard9:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/9/1-33.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.lenancard10 {
+  background-image: url(gallery/HSY/10/pic\ 10\ \(Mumtaz\ –\ Meticulously\ Crafted\ Tangerine\ Red\ Bridal\ Lehenga\ Choli\ Ensemble\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.lenancard10:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/10/3-441x675.png.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.lenancard11 {
+  background-image: url(gallery/HSY/11/Tailored-Two-Piece-Suit-in-Scarlet-Red-4.png.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.lenancard11:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/11/pic\ 11\ \(Tailored\ Two\ Piece\ Suit\ in\ Scarlet\ Red\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+.lenancard12 {
+  background-image: url(gallery/HSY/12/pic\ 12\ \(Azure\ –\ Statement\ Jacket\ Paired\ with\ a\ Gown\ with\ an\ Embellished\ Neckline\).webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.lenancard12:hover {
+  transform: scale(1.1);
+  background-image: url(gallery/HSY/12/L1050728-1-scaled-1.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rebeccapurple; */
+}
+
+/*///////////////////////////Nishat linen work end/////////////////////////////////////*/

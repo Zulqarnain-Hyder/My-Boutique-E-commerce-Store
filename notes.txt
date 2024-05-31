@@ -1,0 +1,76 @@
+1)	The Home Page should be created making use of sections with a suitable logo.
+2)	Collection must be made more categorized as per the designers and types of attire.
+3)	Color combination must be made more précised in the application so that clothes must be properly highlighted.
+4)	Navigation needs to be smoother.
+5)	Comparison of different brands must be included in the website.
+6)	Gallery section of the boutique’s hit collection must be included.
+7)	The look and feel of the project must be made user friendly and uniformity in the color combination must be maintained.
+8)	About us, Contact Us (address and map) must be added.
+9)	Images must be added with its alt attribute defined.
+
+=================================================================================
+
+
+Menu / Navbar
+
+Logo
+Home
+Collections
+	Designers
+		Mahira
+		Gul Ahmed
+		Natasha Kamal
+		Nishat Lelan
+		HSY
+	Gallery
+		Hit Collection
+		Winter Collection
+		Summer Collection
+		Sari Collection
+	Attire
+		Casual Wear
+		Formal Wear
+
+
+
+
+
+
+
+
+
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinks" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Designer
+              </a>
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinks">
+                    <a class="dropdown-item" href="#">Mahira</a>
+                    <a class="dropdown-item" href="#">Gul Ahmed</a>
+                    <a class="dropdown-item" href="#">Natasha Kamal</a>
+                    <a class="dropdown-item" href="#">Nishat Lelan</a>
+                    <a class="dropdown-item" href="#">HSY</a>
+                  </div>
+                </li>
+              </ul>
+
+              <a class="nav-link dropdown-toggle" href="#" id="navbarGallery" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Gallery
+              </a>
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <div class="dropdown-menu" aria-labelledby="navbarGallery">
+                    <a class="dropdown-item" href="#">Hit Collection</a>
+                    <a class="dropdown-item" href="#">Winter Collection</a>
+                    <a class="dropdown-item" href="#">Summer Collection</a>
+                    <a class="dropdown-item" href="#">Sari Collection</a>
+                  </div>
+                </li>
+              </ul>
+              <a class="dropdown-item" href="#">Attire</a>
+
+
+
+
+
+	

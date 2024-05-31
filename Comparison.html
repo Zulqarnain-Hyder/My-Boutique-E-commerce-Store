@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My's Boutique | Product Comparison</title>
+    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <link rel="icon" href="images/Mys-Logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/w3.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/Compare.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js" integrity="sha256-6XMVI0zB8cRzfZjqKcD01PBsAy3FlDASrlC8SxCpInY=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="w3-container w3-center">
+        <a href="index.html"><h4>←back to My's Boutique Home Page</h4></a>
+    </div>
+    <div class="w3-center">
+        <h1>My's Boutique Comparison</h1>
+    </div>
+    <div class="w3-container">
+        <div class="w3-row-padding">
+            
+            <div class="w3-col l3 m6  relPos w3-center ">
+                <div class="selectProduct w3-padding" data-title="FIONA" data-id="FIONA" data-size="S, S/M, M, L, Custom"" data-weight="Lehenga, Choli, Dupatta" data-processor="Composition
+                Tunic: Net Lining: Medium Silk Lehnga: Silk Jamawar Lining: Crepe De Chin Duppatta: Net Or Pure Jamawar Silk.Dry Clean Only" data-battery="PKR 299999">
+                    <a class="w3-btn-floating w3-light-grey addButtonCircular addToCompare">+</a>
+                    <img src="images/compare/img1.webp" class="imgFill productImg" width="250">
+                    <h4>My Boutique</h4>
+                </div>
+            </div>
+
+            <div class="w3-col l3 m6 relPos w3-center">
+                <div class="selectProduct w3-padding" data-title="SCARLET" data-id="SCARLET" data-size="S, S/M, M"" data-weight="Lehenga, Choli, Dupatta" data-processor="Composition
+                Blouse: Net With Raw Velvet Applique Lining: Velvet; Lehnga: Velvet ; Dry Clean Only" data-battery="PKR 359999">
+                    <a class="w3-btn-floating w3-light-grey addButtonCircular addToCompare">+</a>
+                    <img src="images/compare/img2.webp" class="imgFill productImg" width="250">
+                    <h4>Maria B</h4>
+                </div>
+            </div>
+
+            <div class="w3-col l3 m6 relPos  w3-center ">
+                <div class="selectProduct w3-padding" data-title="DAPHNE" data-id="DAPHNE" data-size="S, M, L"" data-weight="Lehenga, Choli, Dupatta" data-processor="Composition
+                Pishwas Handworked Net; Lehnga: Organza; Duppatta:Net ; Dry Clean Only" data-battery="PKR 349899">
+                    <a class="w3-btn-floating w3-light-grey addButtonCircular addToCompare">+</a>
+                    <img src="images/compare/img3.webp" class="imgFill productImg" width="250">
+                    <h4>Natasha Kamal</h4>
+                </div>
+            </div>
+
+            <div class="w3-col l3 m6 relPos  w3-center">
+                <div class="selectProduct w3-padding" data-title="MUMTAZ" data-id="MUMTAZ" data-size="S, S/M, M, L, XL"" data-weight="Lehenga, Choli, Dupatta" data-processor="Meticulously crafted lehenga choli ensemble in a vibrant red color. Embellished fully antique gold work, silk choli, while the jamawar lehenga." data-battery="PKR 459999">
+                    <a class="w3-btn-floating w3-light-grey addButtonCircular addToCompare">+</a>
+                    <img src="images/compare/img4.webp" class="imgFill productImg" width="250">
+                    <h4>HSY</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--preview panel-->
+    <div class="w3-container  w3-center">
+        <div class="w3-row w3-card-4 w3-grey w3-round-large w3-border comparePanle w3-margin-top">
+            <div class="w3-row">
+                <div class="w3-col l9 m8 s6 w3-margin-top">
+                    <h4>Added for comparison</h4>
+                </div>
+                <div class="w3-col l3 m4 s6 w3-margin-top">
+                     
+                    <button class="w3-btn w3-round-small w3-white w3-border notActive cmprBtn" disabled>Compare</button>
+                </div>
+            </div>
+            <div class=" titleMargin w3-container comparePan">
+            </div>
+        </div>
+    </div>
+    <!--end of preview panel-->
+    
+    <!-- comparision popup-->
+    <div id="id01" class="w3-animate-zoom w3-white w3-modal modPos">
+        <div class="w3-container">
+            <a onclick="document.getElementById('id01').style.display='none'" class="whiteFont w3-padding w3-closebtn closeBtn">×</a>
+        </div>
+        <div class="w3-row contentPop w3-margin-top">
+        </div>
+
+    </div>
+    <!--end of comparision popup-->
+
+    <!--  warning model  -->
+    <div id="WarningModal" class="w3-modal">
+        <div class="w3-modal-content warningModal">
+            <header class="w3-container w3-teal">
+                <h3><span>⚠</span>Error</h3>
+            </header>
+            <div class="w3-container">
+                <h4>Maximum of Three products are allowed for comparision</h4>
+
+            </div>
+            <footer class="w3-container w3-right-align">
+                <button id="warningModalClose" onclick="document.getElementById('id01').style.display='none'" class="w3-btn w3-hexagonBlue w3-margin-bottom  ">Ok</button>
+            </footer>
+        </div>
+    </div>
+    <!--  end of warning model  -->
+</body>
+
+</html>
